@@ -1,0 +1,17 @@
+{
+  "name": "adrift-bot",
+  "version": "1.0.0",
+  "description": "自动检查Adrift游戏中船只状态的机器人",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "nodemailer": "^6.10.1",
+    "playwright": "^1.53.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
